@@ -3,4 +3,5 @@ project(TECHARENA2024)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(TECHARENA2024 main.cpp solver.cpp)
+add_executable(TECHARENA2024 main.cpp solver.cpp
+        solver.h)
